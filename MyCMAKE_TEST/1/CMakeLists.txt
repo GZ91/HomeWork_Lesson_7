@@ -5,7 +5,7 @@ cmake_minimum_required (VERSION 3.8)
 
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (MyCMAKE_TEST "test_list.cpp" "test_serial_container.cpp"  "list_container.hpp" "serial_container.hpp" "singly_linked_list_container.hpp" "util.hpp")
+add_executable (MyCMAKE_TEST "main.cpp" "list_container.hpp" "serial_container.hpp" "singly_linked_list_container.hpp" "util.hpp")
 
 # Add src to the include directories for the test target
 target_include_directories(
